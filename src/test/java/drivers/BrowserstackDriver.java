@@ -38,7 +38,7 @@ caps.setCapability("bstack:options", bstackOptions);*/
 
         
         // Set URL of the application under test
-        caps.setCapability("app", "bs://9fg0rt302be241e6524ebc67253ecdee266343");
+        //caps.setCapability("app", "bs://c700ce60cf13ae8ed97705a55b8e022f13c5827c");
 
         // Specify device and os_version for testing
         caps.setCapability("device", "Google Pixel 3");

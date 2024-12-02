@@ -21,8 +21,8 @@ public class SearchTests_old {
         DesiredCapabilities caps = new DesiredCapabilities();
 
         // Set your access credentials
-        caps.setCapability("browserstack.user", "qaguru_ti9G5S");
-        caps.setCapability("browserstack.key", "5yrxu4nFTKkRExUAhqxh");
+        caps.setCapability("browserstack.user", "alex_qN6X0H");
+        caps.setCapability("browserstack.key", "r9siN8SFjHzuw37LHuDc");
 
         // Set URL of the application under test
         caps.setCapability("app", "bs://c700ce60cf13ae8ed97705a55b8e022f13c5827c");
@@ -40,7 +40,7 @@ public class SearchTests_old {
         // Initialise the remote Webdriver using BrowserStack remote URL
         // and desired capabilities defined above
         RemoteWebDriver driver = new RemoteWebDriver(
-                new URL("https://hub.browserstack.com/wd/hub"), caps);
+                new URL("https://alex_qN6X0H:r9siN8SFjHzuw37LHuDc@hub.browserstack.com/wd/hub"), caps);
 
         // Test case for the BrowserStack sample Android app.
         // If you have uploaded your app, update the test case here.

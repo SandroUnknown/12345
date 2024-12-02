@@ -55,7 +55,7 @@ caps.setCapability("bstack:options", bstackOptions);*/
         try {
             return new RemoteWebDriver(
                     //new URL("https://alex_qN6X0H:r9siN8SFjHzuw37LHuDc@hub-cloud.browserstack.com/wd/hub"), caps);
-                      new URL("https://hub-cloud.browserstack.com/wd/hub"), caps);
+                      new URL("https://hub.browserstack.com/wd/hub"), caps);
         } catch (MalformedURLException e) {
             throw new RuntimeException(e);
         }

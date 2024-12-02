@@ -15,7 +15,7 @@ import java.util.List;
 
 public class SearchTests_old {
 
-    @Test
+    
     void successfulSearchTest() throws MalformedURLException, InterruptedException {
 
         DesiredCapabilities caps = new DesiredCapabilities();

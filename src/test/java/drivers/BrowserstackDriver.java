@@ -22,17 +22,6 @@ public class BrowserstackDriver implements WebDriverProvider {
         caps.setCapability("browserstack.user", "alex_qN6X0H");
         caps.setCapability("browserstack.key", "r9siN8SFjHzuw37LHuDc");
 
-
-/*DesiredCapabilities caps = new DesiredCapabilities();
-HashMap<String, Object> bstackOptions = new HashMap<String, Object>();
-bstackOptions.put("userName", "alex_qN6X0H");
-bstackOptions.put("accessKey", "r9siN8SFjHzuw37LHuDc");
-caps.setCapability("platformName", "android");
-caps.setCapability("appium:platformVersion", "15.0");
-caps.setCapability("appium:deviceName", "Google Pixel 9");
-caps.setCapability("appium:app", "bs://c700ce60cf13ae8ed97705a55b8e022f13c5827c");
-caps.setCapability("bstack:options", bstackOptions);*/
-
 // bs://9fg0rt302be241e6524ebc67253ecdee266343
 // wiki - bs://c700ce60cf13ae8ed97705a55b8e022f13c5827c
 

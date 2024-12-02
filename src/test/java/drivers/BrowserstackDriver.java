@@ -21,9 +21,23 @@ public class BrowserstackDriver implements WebDriverProvider {
         caps.setCapability("browserstack.user", "alex_qN6X0H");
         caps.setCapability("browserstack.key", "r9siN8SFjHzuw37LHuDc");
 
-        // Set URL of the application under test
-        /*caps.setCapability("app", "bs://c700ce60cf13ae8ed97705a55b8e022f13c5827c");
 
+/*DesiredCapabilities capabilities = new DesiredCapabilities();
+HashMap<String, Object> bstackOptions = new HashMap<String, Object>();
+bstackOptions.put("userName", "alex_qN6X0H");
+bstackOptions.put("accessKey", "r9siN8SFjHzuw37LHuDc");
+capabilities.setCapability("platformName", "android");
+capabilities.setCapability("appium:platformVersion", "15.0");
+capabilities.setCapability("appium:deviceName", "Google Pixel 9");
+capabilities.setCapability("appium:app", "bs://c700ce60cf13ae8ed97705a55b8e022f13c5827c");
+capabilities.setCapability("bstack:options", bstackOptions);*/
+
+
+
+        
+        // Set URL of the application under test
+        caps.setCapability("appium:app", "bs://c700ce60cf13ae8ed97705a55b8e022f13c5827c");
+/*
         // Specify device and os_version for testing
         caps.setCapability("device", "Google Pixel 3");
         caps.setCapability("os_version", "9.0");

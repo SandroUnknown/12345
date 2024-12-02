@@ -11,12 +11,12 @@ public class SearchTests extends TestBase {
 
     @Test
     void successfulSearchTest() {
-       /* step("Type search", () -> {
+        step("Type search", () -> {
             $(accessibilityId("Search Wikipedia")).click();
             $(id("org.wikipedia.alpha:id/search_src_text")).sendKeys("Appium");
         });
         step("Verify content found", () ->
             $$(id("org.wikipedia.alpha:id/page_list_item_title"))
-                    .shouldHave(sizeGreaterThan(0)));*/
+                    .shouldHave(sizeGreaterThan(0)));
     }
 }

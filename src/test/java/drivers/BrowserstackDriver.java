@@ -10,6 +10,8 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import javax.annotation.Nonnull;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.net.URI;
+import java.net.URISyntaxException;
 
 public class BrowserstackDriver implements WebDriverProvider {
     @Nonnull
